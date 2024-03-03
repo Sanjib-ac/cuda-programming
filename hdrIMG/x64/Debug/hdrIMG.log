@@ -1,0 +1,16 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Sanjib\Documents\CudaProgramming\cuda-programming\hdrIMG>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Sanjib\Documents\CudaProgramming\cuda-programming\hdrIMG\kernel.cu" 
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\Sanjib\Documents\CudaProgramming\cuda-programming\hdrIMG\kernel.cu(112): warning #177-D: variable "temp" was declared but never referenced
+  
+C:\Users\Sanjib\Documents\CudaProgramming\cuda-programming\hdrIMG\kernel.cu(113): warning #177-D: variable "w" was declared but never referenced
+  
+C:\Users\Sanjib\Documents\CudaProgramming\cuda-programming\hdrIMG\kernel.cu(114): warning #177-D: variable "h" was declared but never referenced
+  
+C:\Users\Sanjib\Documents\CudaProgramming\cuda-programming\hdrIMG\kernel.cu(183): warning #177-D: variable "bmp1" was declared but never referenced
+  
+  kernel.cu
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\Sanjib\Documents\CudaProgramming\cuda-programming\hdrIMG\kernel.cu(183): warning C4101: 'bmp1': unreferenced local variable
+  hdrIMG.vcxproj -> C:\Users\Sanjib\Documents\CudaProgramming\cuda-programming\hdrIMG\x64\Debug\hdrIMG.exe
